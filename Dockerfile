@@ -1,7 +1,7 @@
 FROM cubecoders/amp
 
 #Install dependencies
-RUN apt-get update
+RUN apt-get update --allow-unauthenticated
 
 
 #Add repository
