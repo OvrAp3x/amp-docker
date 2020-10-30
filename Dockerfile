@@ -1,5 +1,7 @@
 FROM cubecoders/amp
 
+COPY sources.list /etc/apt/
+
 #Install dependencies
 RUN apt-get update --allow-unauthenticated
 
