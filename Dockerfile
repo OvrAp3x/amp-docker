@@ -18,8 +18,3 @@ RUN wget -nc -P /tmp/bitnami/pkg/cache/ https://downloads.bitnami.com/files/stac
 ##JAVA    
     
 #start!
-
-COPY entrypoint.sh /
-RUN chmod a+x /entrypoint.sh
-STOPSIGNAL SIGINT
-ENTRYPOINT ["/entrypoint.sh"]
